@@ -7,9 +7,9 @@ public class memberFactory {
 		if(s=="doctor")
 		{return new Doctor(); }
 		else if (s=="teaching assestant")
-		{return new TeachingAssistant(); 
+		{return new TeachingAssistant(); }
 		else
 			return null;
-		}
+		
 	}
 }
