@@ -6,7 +6,10 @@ public class memberFactory {
 		String s=JobName.toLowerCase();
 		if(s=="doctor")
 		{return new Doctor(); }
+		else if (s=="teaching assestant")
+		{return new TeachingAssistant(); 
 		else
-		{return new TeachingAssistant(); }
+			return null;
+		}
 	}
 }
