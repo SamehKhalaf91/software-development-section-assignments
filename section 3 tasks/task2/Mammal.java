@@ -1,5 +1,5 @@
 
-public class Mammal {
+public class Mammal implements Animal {
 	public void eat() {
 		System.out.println("food of mammal");
 	}
